@@ -1,8 +1,8 @@
-# LOD: Learnable Orthogonal Decomposition
+# LOD: Learnable Orthogonal Decomposition🔥
 ![](https://i.imgur.com/waxVImv.png)
 ![KO-platypus](./images/LOD.png)
 
-# Table of Contents
+# Table of Contents📖
 1. [Introduction]()
 2. [Datasets]()
 3. [POD preprocess]()
@@ -11,10 +11,10 @@
 6. [LOD Visualization]()
 7. [References]()
 
-# Introduction
+# Introduction📖
 Understanding spatio-temporal data is a central challenge in the field of deep learning, particularly in solving Partial Differential Equations (PDEs). Existing approaches, such as Transformers and Neural Operators, have successfully mapped input conditions to PDE solutions but often face challenges due to their auto-regressive nature, which leads to increased computational costs and error accumulation over time. In this paper, we introduce a novel approach called Learnable Orthogonal Decomposition (LOD), inspired by the classical Proper Orthogonal Decomposition (POD) technique and enhanced by deep learning. LOD effectively decouples temporal and spatial information in PDE data, simplifying the learning process for neural networks. By focusing on the core architecture of LOD, the method is designed to maximize efficiency while maintaining high accuracy. Spatial bases are initialized with POD-generated components, which are set as learnable parameters within the model. The deep learning model then predicts the temporal coefficients in a single inference step, enabling non-regressive prediction of the entire time series. Experiments show that LOD not only accurately captures the dynamics of complex physical systems but also outperforms traditional POD methods, achieving high accuracy and low computational cost across various PDE benchmark datasets.
   
-# Datasets
+# Datasets📚
 Before training, you must download the [PDEBench dataset](https://github.com/pdebench/PDEBench/tree/main/pdebench/data_download).  
 You can download above link, also can see [our code]().
 
@@ -32,7 +32,7 @@ data2
 │       ├── shallow-water
 ```
   
-# POD preprocess
+# POD preprocess🌊
 ## 1D-PDE & CFD
 Use the [make_1D_pod]() yaml files.
 ```yaml
@@ -55,7 +55,7 @@ python POD_1D_process.py --pde CFD
   
 ## Shallow-water
 
-# LOD Training
+# LOD Training🤗
 ## 1D-PDE
 - Advection, Burgers, Diffusion-Reaction, and Diffusion-Sorption
 ```python
@@ -72,10 +72,10 @@ python LOD_CFD.py
 python LOD_2D.py
 ```
   
-# Inference
+# Inference🌊
 (TODO)
 
-# LOD Visualization
+# LOD Visualization🌊
 (TODO)
 
 # References
