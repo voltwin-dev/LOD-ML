@@ -1,0 +1,7 @@
+# POD.yaml
+
+dataset:
+    root_path: '/data2/PDEBench/1D/CFD/Train/'
+    save_path: '/data2/PDEBench/POD/'
+    data_path: ['1D_CFD_Rand_Eta0.1_Zeta0.1_periodic_Train.hdf5']
+    N_eigen: 64

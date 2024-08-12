@@ -1,0 +1,36 @@
+# diffusion-reaction.yaml
+
+model: lod # fno // lod-small // lod
+
+
+#['ReacDiff_Nu0.5_Rho1.0.hdf5', 'ReacDiff_Nu0.5_Rho10.0.hdf5', 'ReacDiff_Nu0.5_Rho2.0.hdf5',
+#'ReacDiff_Nu0.5_Rho5.0.hdf5', 'ReacDiff_Nu1.0_Rho1.0.hdf5', 'ReacDiff_Nu1.0_Rho10.0.hdf5',
+#'ReacDiff_Nu1.0_Rho2.0.hdf5', 'ReacDiff_Nu1.0_Rho5.0.hdf5', 'ReacDiff_Nu2.0_Rho1.0.hdf5',
+#'ReacDiff_Nu2.0_Rho10.0.hdf5', 'ReacDiff_Nu2.0_Rho2.0.hdf5', 'ReacDiff_Nu2.0_Rho5.0.hdf5',
+#'ReacDiff_Nu5.0_Rho1.0.hdf5', 'ReacDiff_Nu5.0_Rho10.0.hdf5', 'ReacDiff_Nu5.0_Rho2.0.hdf5',
+#'ReacDiff_Nu5.0_Rho5.0.hdf5'] 
+
+dataset:
+    name: ReactionDiffusion
+    file_names: ["ReacDiff_Nu1.0_Rho10.0.hdf5"]
+    t_train: 101
+    x_range: 256
+    initial_step: 5
+    reduced_resolution: 4
+    reduced_resolution_t: 1
+    reduced_batch: 1
+    num_channels: 1
+
+pod_parameter:
+    N_eigen: 64
+
+training:
+    random_seed: 3407
+    num_workers: 8
+    batch_size: 64
+    epochs: 500
+    learning_rate: 1.e-3
+
+fno:
+    modes: 12
+    width: 20

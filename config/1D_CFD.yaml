@@ -1,0 +1,32 @@
+# 1D CFD.yaml
+
+model: fno # fno // lod-small // lod
+
+
+# 1D_CFD_Rand_Eta0.1_Zeta0.1_periodic_Train.hdf5
+# 1D_CFD_Rand_Eta0.01_Zeta0.01_periodic_Train.hdf5
+
+dataset:
+    name: CFD
+    file_names: ["1D_CFD_Rand_Eta0.01_Zeta0.01_periodic_Train.hdf5"]
+    t_train: 21
+    x_range: 128
+    initial_step: 10
+    reduced_resolution: 8
+    reduced_resolution_t: 5
+    reduced_batch: 1
+    num_channels: 3
+
+pod_parameter:
+    N_eigen: 64
+
+training:
+    random_seed: 3407
+    num_workers: 8
+    batch_size: 64
+    epochs: 500
+    learning_rate: 1.e-3
+
+fno:
+    modes: 12
+    width: 20

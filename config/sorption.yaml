@@ -1,0 +1,28 @@
+# diffusion-sorption.yaml
+
+model: lod # fno // lod-small // lod
+
+dataset:
+    name: diffusion-sorption
+    file_names: ["1D_diff-sorp_NA_NA.h5"] # Only One
+    t_train: 101
+    x_range: 1024
+    initial_step: 10
+    reduced_resolution: 1
+    reduced_resolution_t: 1
+    reduced_batch: 1
+    num_channels: 1
+
+pod_parameter:
+    N_eigen: 64
+
+training:
+    random_seed: 3407
+    num_workers: 8
+    batch_size: 64
+    epochs: 500
+    learning_rate: 1.e-3
+
+fno:
+    modes: 16
+    width: 64
