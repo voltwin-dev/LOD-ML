@@ -34,7 +34,7 @@ data2
   
 # POD preprocess🌊
 ## 1D-PDE & CFD
-Use the [make_1D_pod]() yaml files.
+Use the [make_1D_POD](https://github.com/voltwin-dev/LOD-ML/blob/main/config/make_1D_POD.yaml) yaml files.
 ```yaml
 dataset:
     root_path: '/data2/PDEBench/1D'
