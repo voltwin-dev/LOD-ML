@@ -50,7 +50,7 @@ python POD_1D_process.py
   
 If you want to preprocess about CFD,
 ```python
-python POD_1D_process.py --pde CFD
+python POD_1D_CFD_process.py
 ```
   
 ## Shallow-water
