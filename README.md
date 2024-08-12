@@ -33,30 +33,50 @@ data2
 ```
   
 # POD preprocess
-## 1D-PDE
+## 1D-PDE & CFD
 Use the [make_1D_pod]() yaml files.
 ```yaml
 dataset:
     root_path: '/data2/PDEBench/1D'
     save_path: '/data2/PDEBench/POD/' # We recommend
-    data_path: ['1D_diff-sorp_NA_NA.h5'] # PDE dataname
+    data_path: ['1D_diff-sorp_NA_NA.h5'] # PDE data
     N_eigen: 64 # POD Hyperparameters
 ```
-
-
-
-## 1D-CFD
-
+  
+Then, implement below clode.
+```python
+python POD_1D_process.py
+```
+  
+If you want to preprocess about CFD,
+```python
+python POD_1D_process.py --pde CFD
+```
+  
 ## Shallow-water
 
 # LOD Training
-
-
+## 1D-PDE
+- Advection, Burgers, Diffusion-Reaction, and Diffusion-Sorption
+```python
+python LOD_1D.py --pde [choose ...advection, burgers, reaction, sorption...]
+```
+  
+- 1D-CFD
+```python
+python LOD_CFD.py
+```  
+  
+## Shallow-water
+```python
+python LOD_2D.py
+```
+  
 # Inference
-
+(TODO)
 
 # LOD Visualization
-
+(TODO)
 
 # References
 - [PDEBench](https://github.com/pdebench/PDEBench)
