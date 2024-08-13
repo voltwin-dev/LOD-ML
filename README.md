@@ -77,7 +77,55 @@ python LOD_2D.py
 (TODO)
 
 # LOD Visualization🌊
-(TODO)
+## Code
+```python
+python 1D_visualization.py --pde [choose ...advection, burgers, reaction, sorption...]
+```
+We provided some [checkpoints].  
+You will easily implement our code..!  
+
+## Results
+<table class="center">
+<tr>
+  <td style="text-align:center;" colspan="3"><b>LOD results</b></td>
+</tr>
+<tr>
+  <td><img src=""></td>
+  <td><img src=""></td>
+  <td><img src=""></td>              
+  <td><img src=""></td>
+</tr>
+<tr>
+  <td width=25% style="text-align:center;">"Advection”</td>
+  <td width=25% style="text-align:center;">"Advection"</td>
+  <td width=25% style="text-align:center;">"Advection"</td>
+</tr>
+
+<tr>
+  <td><img src=""></td>
+  <td><img src=""></td>
+  <td><img src=""></td>              
+  <td><img src=""></td>
+</tr>
+<tr>
+  <td width=25% style="text-align:center;">"Burgers”</td>
+  <td width=25% style="text-align:center;">"Burgers"</td>
+  <td width=25% style="text-align:center;">"Burgers"</td>
+</tr>
+
+<tr>
+  <td><img src=""></td>
+  <td><img src=""></td>
+  <td><img src=""></td>              
+  <td><img src=""></td>
+</tr>
+<tr>
+  <td width=25% style="text-align:center;">"Diffusion-Reaction”</td>
+  <td width=25% style="text-align:center;">"Diffusion-Reaction"</td>
+  <td width=25% style="text-align:center;">"Shallow-Water"</td>
+</tr>
+
+</table>
 
 # References
 - [PDEBench](https://github.com/pdebench/PDEBench)
