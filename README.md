@@ -166,9 +166,9 @@ checkpoint
   <td><img src="./images/adv_LOD_560.gif"></td>              
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"Advection case1”</td>
-  <td width=25% style="text-align:center;">"Advection case2"</td>
-  <td width=25% style="text-align:center;">"Advection case3"</td>
+  <td width=25% style="text-align:center;">"Advection case1 - LOD”</td>
+  <td width=25% style="text-align:center;">"Advection case2 - LOD"</td>
+  <td width=25% style="text-align:center;">"Advection case3 - LOD"</td>
 </tr>
 
 <tr>
@@ -177,9 +177,9 @@ checkpoint
   <td><img src="./images/bur_LOD_235.gif"></td>              
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"Burgers case1”</td>
-  <td width=25% style="text-align:center;">"Burgers case2"</td>
-  <td width=25% style="text-align:center;">"Burgers case3"</td>
+  <td width=25% style="text-align:center;">"Burgers case1 - LOD”</td>
+  <td width=25% style="text-align:center;">"Burgers case2 - LOD"</td>
+  <td width=25% style="text-align:center;">"Burgers case3 - LOD"</td>
 </tr>
 
 <tr>
@@ -188,9 +188,9 @@ checkpoint
   <td><img src=""></td>              
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"Diffusion-Reaction case1”</td>
-  <td width=25% style="text-align:center;">"Diffusion-Reaction case2"</td>
-  <td width=25% style="text-align:center;">"Shallow-Water"</td>
+  <td width=25% style="text-align:center;">"Diffusion-Reaction case1 - LOD”</td>
+  <td width=25% style="text-align:center;">"Diffusion-Reaction case2 - LOD"</td>
+  <td width=25% style="text-align:center;">"Shallow-Water - LOD-small"</td>
 </tr>
 
 </table>
