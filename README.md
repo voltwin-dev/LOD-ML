@@ -75,7 +75,7 @@ python LOD_2D.py
   
 # Evaluation🌟
 ## Efficiency
-![](./images/vram.png)  
+<img src="./images/vram.png" width="400" height="400" />
 | Model | Inference_Time | VRAM | # of parameters |
 | --- | --- | --- | --- | 
 | **FNO** | 43s | 34.83MB | 43137 | 
