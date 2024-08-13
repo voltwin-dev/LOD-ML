@@ -95,9 +95,9 @@ You will easily implement our code..!
   <td><img src="./images/adv_LOD_560.gif"></td>              
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"Advection”</td>
-  <td width=25% style="text-align:center;">"Advection"</td>
-  <td width=25% style="text-align:center;">"Advection"</td>
+  <td width=25% style="text-align:center;">"Advection case1”</td>
+  <td width=25% style="text-align:center;">"Advection case2"</td>
+  <td width=25% style="text-align:center;">"Advection case3"</td>
 </tr>
 
 <tr>
@@ -106,9 +106,9 @@ You will easily implement our code..!
   <td><img src="./images/bur_LOD_235.gif"></td>              
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"Burgers”</td>
-  <td width=25% style="text-align:center;">"Burgers"</td>
-  <td width=25% style="text-align:center;">"Burgers"</td>
+  <td width=25% style="text-align:center;">"Burgers case1”</td>
+  <td width=25% style="text-align:center;">"Burgers case2"</td>
+  <td width=25% style="text-align:center;">"Burgers case3"</td>
 </tr>
 
 <tr>
@@ -117,8 +117,8 @@ You will easily implement our code..!
   <td><img src=""></td>              
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"Diffusion-Reaction”</td>
-  <td width=25% style="text-align:center;">"Diffusion-Reaction"</td>
+  <td width=25% style="text-align:center;">"Diffusion-Reaction case1”</td>
+  <td width=25% style="text-align:center;">"Diffusion-Reaction case2"</td>
   <td width=25% style="text-align:center;">"Shallow-Water"</td>
 </tr>
 
