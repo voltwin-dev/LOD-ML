@@ -79,7 +79,7 @@ def POD(T, N_eigen):
 This is the **core code** that performs the POD!  
 With the above function, you can orthogonalize the time series data and generate **coefficients and bases** that have the shape of `N_eigen`.
   
-## 1D-PDE & CFD
+## 1D-PDE
 Use the [make_1D_POD](https://github.com/voltwin-dev/LOD-ML/blob/main/config/make_1D_POD.yaml) yaml files.
 ```yaml
 dataset:
