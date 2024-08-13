@@ -155,7 +155,7 @@ checkpoint
 ├── lod_Burgers_Nu1.0.pt
 ├── lod_ReactionDiffusion_Nu0.5_Rho1.0.pt
 ├── lod_ReactionDiffusion_Nu5.0_Rho10.0.pt
-└── lod_shallow-water_NA.pt
+└── lod-small_shallow-water_NA.pt
 ```
   
 ## Results
