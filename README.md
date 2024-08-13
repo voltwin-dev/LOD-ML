@@ -39,8 +39,8 @@ Use the [make_1D_POD](https://github.com/voltwin-dev/LOD-ML/blob/main/config/mak
 dataset:
     root_path: '/data2/PDEBench/1D'
     save_path: '/data2/PDEBench/POD/' # We recommend
-    data_path: ['1D_diff-sorp_NA_NA.h5'] # PDE data
-    N_eigen: 64 # POD Hyperparameters
+    data_path: ['1D_diff-sorp_NA_NA.h5'] # change data
+    N_eigen: 64 # change hyperparameter
 ```
   
 Then, implement below clode.
