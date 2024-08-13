@@ -90,9 +90,9 @@ You will easily implement our code..!
   <td style="text-align:center;" colspan="3"><b>LOD results</b></td>
 </tr>
 <tr>
-  <td><img src=""></td>
-  <td><img src=""></td>
-  <td><img src=""></td>              
+  <td><img src="./images/adv_LOD_705.gif"></td>
+  <td><img src="./images/adv_LOD_777.gif"></td>
+  <td><img src="./images/adv_LOD_560.gif"></td>              
 </tr>
 <tr>
   <td width=25% style="text-align:center;">"Advection”</td>
@@ -101,9 +101,9 @@ You will easily implement our code..!
 </tr>
 
 <tr>
-  <td><img src=""></td>
-  <td><img src=""></td>
-  <td><img src=""></td>              
+  <td><img src="./images/bur_LOD_860.gif"></td>
+  <td><img src="./images/bur_LOD_950.gif"></td>
+  <td><img src="./images/bur_LOD_235.gif"></td>              
 </tr>
 <tr>
   <td width=25% style="text-align:center;">"Burgers”</td>
@@ -112,8 +112,8 @@ You will easily implement our code..!
 </tr>
 
 <tr>
-  <td><img src=""></td>
-  <td><img src=""></td>
+  <td><img src="./images/react_LOD_999.gif"></td>
+  <td><img src="./images/react_LOD_0.gif"></td>
   <td><img src=""></td>              
 </tr>
 <tr>
