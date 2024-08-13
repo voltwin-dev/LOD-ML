@@ -33,6 +33,48 @@ data2
 ```
   
 # POD preprocess🌊
+```python
+def POD(T, N_eigen):
+
+    # Eigenvalue problem
+    U = T @ T.T
+
+    if (U==U.T).all(): # symmetric
+      D, V = np.linalg.eigh(U)
+    else:
+      print('Not symmetric')
+      D, V = np.linalg.eig(U)
+
+    del U
+    
+    # Sorting eigenvalues and eigenvectors
+    indices = D.argsort()[::-1]
+    D = D[indices]
+    V = V[:, indices]
+    
+    # Calculating cumulative energy ratio
+    cumulative_energy_ratio = np.cumsum(D) / np.sum(D)
+    #print(cumulative_energy_ratio >= 1 - epsilon)
+    
+    # Finding the number of eigenvalues to satisfy the energy threshold
+    # n = np.argmax(cumulative_energy_ratio >= 1 - epsilon) + 1 # False/True로 표현되었으므로...
+    n = N_eigen # hyperparameter
+    
+    # Normalizing eigenvectors
+    EV = V[:, :n] / np.sqrt(D[:n])
+    
+    # Calculating the projection matrix
+    phi = EV.T @ T
+    
+    # Reconstructing T
+    Tr = T @ phi.T
+
+    return Tr, phi, cumulative_energy_ratio # coeff, bases
+
+```
+This is the **core code** that performs the POD!  
+With the above function, you can orthogonalize the time series data and generate **coefficients and bases** that have the shape of `N_eigen`.
+  
 ## 1D-PDE & CFD
 Use the [make_1D_POD](https://github.com/voltwin-dev/LOD-ML/blob/main/config/make_1D_POD.yaml) yaml files.
 ```yaml
