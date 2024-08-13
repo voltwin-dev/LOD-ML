@@ -144,7 +144,9 @@ LOD have a higher VRAM usage than FNO, but about **6.1x** faster inference speed
 ## Code
 ```python
 python 1D_visualization.py --pde [choose ...advection, burgers, reaction, sorption...]
+python 2D_visualization.py
 ```
+  
 We provided some [checkpoints](https://drive.google.com/drive/folders/1yDLMFUdq16HwNyIJfMvCFoxqdmnKfyQ1?usp=sharing).  
 You will easily implement our code..!  
 ```
@@ -152,7 +154,8 @@ checkpoint
 ├── lod_Advection_beta0.1.pt
 ├── lod_Burgers_Nu1.0.pt
 ├── lod_ReactionDiffusion_Nu0.5_Rho1.0.pt
-└── lod_ReactionDiffusion_Nu5.0_Rho10.0.pt
+├── lod_ReactionDiffusion_Nu5.0_Rho10.0.pt
+└── lod_shallow-water_NA.pt
 ```
   
 ## Results
