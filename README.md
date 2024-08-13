@@ -193,7 +193,10 @@ checkpoint
   <td width=25% style="text-align:center;">"Diffusion-Reaction case2 - LOD"</td>
 </tr>
 </table>
-
+  
+- Red: Ground Truth
+- Blue: Prediction
+  
 <table class="center">
 <tr>
   <td style="text-align:center;" colspan="4"><b>LOD-small results</b></td>
@@ -213,9 +216,6 @@ checkpoint
 
 </table>
   
-- Red: Ground Truth
-- Blue: Prediction
-
 # References
 - [PDEBench](https://github.com/pdebench/PDEBench)
 - [VCNeF](https://github.com/jhagnberger/vcnef)
