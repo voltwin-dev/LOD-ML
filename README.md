@@ -3,12 +3,12 @@
 ![KO-platypus](./images/LOD.png)
 
 # Table of Contents📖
-1. [Introduction](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#introduction)
-2. [Datasets](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#datasets)
-3. [POD preprocess](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#pod-preprocess)
-4. [LOD Training](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#lod-training)
-5. [Evaluation](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#evaluation)
-6. [LOD Inference](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#lod-inference)
+1. [Introduction📖](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#introduction)
+2. [Datasets📚](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#datasets)
+3. [POD preprocess🌊](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#pod-preprocess)
+4. [LOD Training🤗](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#lod-training)
+5. [Evaluation🌟](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#evaluation)
+6. [LOD Inference🌊](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#lod-inference)
 7. [References](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#references)
 
 # Introduction📖
