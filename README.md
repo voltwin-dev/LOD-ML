@@ -73,10 +73,10 @@ python LOD_CFD.py
 python LOD_2D.py
 ```
   
-# Inference🌊
+# Performance🌊
 (TODO)
 
-# LOD Visualization🌊
+# LOD Inference🌊
 ## Code
 ```python
 python 1D_visualization.py --pde [choose ...advection, burgers, reaction, sorption...]
