@@ -456,6 +456,7 @@ class Transformer(nn.Module):
 
         return self.norm(x)
 
+# https://github.com/lucidrains/vit-pytorch
 class ViT(nn.Module):
     def __init__(self, *, image_size, patch_size, dim, depth, heads, mlp_dim, pool = 'cls', channels = 3, dim_head = 64, dropout = 0., emb_dropout = 0.):
         super().__init__()
