@@ -206,9 +206,9 @@ checkpoint
 </tr>
 <tr>
   <td width=25% style="text-align:center;">"Shallow-Water case1 - GT”</td>
-  <td width=25% style="text-align:center;">"Shallow-Water case1 - LOD"</td>
+  <td width=25% style="text-align:center;">"Shallow-Water case1 - LOD-small"</td>
   <td width=25% style="text-align:center;">"Shallow-Water case2 - GT"</td>
-  <td width=25% style="text-align:center;">"Shallow-Water case2 - LOD"</td>
+  <td width=25% style="text-align:center;">"Shallow-Water case2 - LOD-small"</td>
 </tr>
 
 </table>
