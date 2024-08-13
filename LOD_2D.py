@@ -120,8 +120,7 @@ def run_training(config):
                         N_eigen=N_eigen,
                         N_time=t_train*num_channels,
                         N_x=x_range**2,
-                        bases=bases[0],
-                        d_ff=x_range**2)
+                        bases=bases[0])
     
     else:
         raise Exception("There is no model.")
