@@ -143,6 +143,9 @@ checkpoint
 </tr>
 
 </table>
+  
+- Red: Ground Truth
+- Blue: Prediction
 
 # References
 - [PDEBench](https://github.com/pdebench/PDEBench)
