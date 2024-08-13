@@ -61,7 +61,7 @@ def POD(T, N_eigen):
     #print(cumulative_energy_ratio >= 1 - epsilon)
     
     # Finding the number of eigenvalues to satisfy the energy threshold
-    # n = np.argmax(cumulative_energy_ratio >= 1 - epsilon) + 1 # False/True로 표현되었으므로...
+    # n = np.argmax(cumulative_energy_ratio >= 1 - epsilon) + 1 # You can use threshold...
     n = N_eigen # hyperparameter
     
     # Normalizing eigenvectors
