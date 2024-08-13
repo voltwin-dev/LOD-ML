@@ -93,7 +93,6 @@ You will easily implement our code..!
   <td><img src=""></td>
   <td><img src=""></td>
   <td><img src=""></td>              
-  <td><img src=""></td>
 </tr>
 <tr>
   <td width=25% style="text-align:center;">"Advection”</td>
@@ -105,7 +104,6 @@ You will easily implement our code..!
   <td><img src=""></td>
   <td><img src=""></td>
   <td><img src=""></td>              
-  <td><img src=""></td>
 </tr>
 <tr>
   <td width=25% style="text-align:center;">"Burgers”</td>
@@ -117,7 +115,6 @@ You will easily implement our code..!
   <td><img src=""></td>
   <td><img src=""></td>
   <td><img src=""></td>              
-  <td><img src=""></td>
 </tr>
 <tr>
   <td width=25% style="text-align:center;">"Diffusion-Reaction”</td>
