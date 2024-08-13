@@ -183,14 +183,32 @@ checkpoint
 </tr>
 
 <tr>
+  <td><img src="./images/bur_LOD_860_2.gif"></td>
   <td><img src="./images/react_LOD_999.gif"></td>
-  <td><img src="./images/react_LOD_0.gif"></td>
-  <td><img src=""></td>              
+  <td><img src="./images/react_LOD_0.gif"></td>       
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"Diffusion-Reaction case1 - LOD”</td>
+  <td width=25% style="text-align:center;">"Burgers case4 - LOD”</td>
+  <td width=25% style="text-align:center;">"Diffusion-Reaction case1 - LOD"</td>
   <td width=25% style="text-align:center;">"Diffusion-Reaction case2 - LOD"</td>
-  <td width=25% style="text-align:center;">"Shallow-Water - LOD-small"</td>
+</tr>
+</table>
+
+<table class="center">
+<tr>
+  <td style="text-align:center;" colspan="4"><b>LOD-small results</b></td>
+</tr>
+<tr>
+  <td><img src="./images/water_GT_94.gif"></td>
+  <td><img src="./images/water_LODS_94.gif"></td>
+  <td><img src="./images/water_GT_110.gif"></td>
+  <td><img src="./images/water_LODS_110.gif"></td>     
+</tr>
+<tr>
+  <td width=25% style="text-align:center;">"Shallow-Water case1 - GT”</td>
+  <td width=25% style="text-align:center;">"Shallow-Water case1 - LOD"</td>
+  <td width=25% style="text-align:center;">"Shallow-Water case2 - GT"</td>
+  <td width=25% style="text-align:center;">"Shallow-Water case2 - LOD"</td>
 </tr>
 
 </table>
