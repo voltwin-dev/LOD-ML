@@ -73,7 +73,7 @@ python LOD_CFD.py
 python LOD_2D.py
 ```
   
-# Performance🌊
+# Performance🌟
 (TODO)
 
 # LOD Inference🌊
