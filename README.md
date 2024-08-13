@@ -81,6 +81,7 @@ python LOD_2D.py
 | **FNO** | 43s | 34.83MB | 43137 | 
 | **LOD-small** | **3s** | 34.83MB | 43325 |
 | **LOD** | **7s** | 51.96MB | 4451194 |
+  
 LOD-small is about **14.3x** faster than FNO.  
 LOD have a higher VRAM usage than FNO, but about **6.1x** faster inference speed.
   
