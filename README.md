@@ -96,8 +96,10 @@ python POD_1D_CFD_process.py
 ```
   
 ## Shallow-water
-(TODO)
-
+```python
+python POD_2D_process.py
+```
+  
 # LOD Training🤗
 You can see the [training config](https://github.com/voltwin-dev/LOD-ML/tree/main/config) files.  
 We provided `Advection`, `Burgers`, `Diffusion-Reaction`, `Diffusion-Sorption`, `CFD`, and `Shallow-Water`.
