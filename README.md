@@ -75,15 +75,22 @@ python LOD_2D.py
   
 # Performance🌟
 (TODO)
-
+  
 # LOD Inference🌊
 ## Code
 ```python
 python 1D_visualization.py --pde [choose ...advection, burgers, reaction, sorption...]
 ```
-We provided some [checkpoints].  
+We provided some [checkpoints](https://drive.google.com/drive/folders/1yDLMFUdq16HwNyIJfMvCFoxqdmnKfyQ1?usp=sharing).  
 You will easily implement our code..!  
-
+```
+checkpoint
+├── lod_Advection_beta0.1.pt
+├── lod_Burgers_Nu1.0.pt
+├── lod_ReactionDiffusion_Nu0.5_Rho1.0.pt
+└── lod_ReactionDiffusion_Nu5.0_Rho10.0.pt
+```
+  
 ## Results
 <table class="center">
 <tr>
