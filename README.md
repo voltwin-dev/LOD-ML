@@ -221,7 +221,7 @@ checkpoint
 </table>
 
 # Ablation Study🔥
-## Comparison of Non-Regressive and Regressive Approaches
+## Comparison of Non-Regressive and Regressive Approaches🦎
 This study suggests that **non-regressive methods like LOD may be more suitable** for applications where long-term predictive accuracy and stability are crucial.
 <table class="center">
 <tr>
@@ -257,11 +257,11 @@ This study suggests that **non-regressive methods like LOD may be more suitable*
 
 You can make this plot through [visualization code](https://github.com/voltwin-dev/LOD-ML/blob/main/1D_visualization.py#L292).
 
-## Effect of Eigenvalue Number on Performance
+## Effect of Eigenvalue Number on Performance🐍
 
-## Scalability to Parameter-Integrated Scenarios
+## Scalability to Parameter-Integrated Scenarios🐲
 
-## The Effect of Training Data Size on Test Accuracy
+## The Effect of Training Data Size on Test Accuracy🐉
 
 # References
 - [PDEBench](https://github.com/pdebench/PDEBench)
