@@ -220,7 +220,7 @@ checkpoint
 
 </table>
 
-# Ablation Study🔥
+# Ablation Study🥛
 ## Comparison of Non-Regressive and Regressive Approaches🦎
 This study suggests that **non-regressive methods like LOD may be more suitable** for applications where long-term predictive accuracy and stability are crucial.
 <table class="center">
