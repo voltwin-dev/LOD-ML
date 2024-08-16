@@ -49,7 +49,7 @@ Finally, you can use `LOD_eigenvalues.py` for ablation study.
 ![](./images/ablation3.png)
 > LOD model is relatively robust to variations in the number of training samples. Additionally, although there is a slight performance decrease without positional encoding, the LOD becomes more robust.
   
-Similar to above study, you can modify `yaml` config.  
+Similar to above study, you can modify `yaml` [config]().  
 ```yaml
 dataset:
     root_path: '/data2/PDEBench/1D'
@@ -69,3 +69,49 @@ Finally, you can use `LOD_datasize.py` for ablation study.
 ## Scalability to Parameter-Integrated Scenarios🐉
 
 ## Effect of Learnable Bases🦕
+![](./images/ablation5.png)
+
+Similar to LOD training, you can modify `yaml` [config]().  
+```yaml
+# learnable bases
+model: lod-small # lod-small // lod-small-learnable
+
+# If you want to train diffusion-reaction, you need to use reaction setup.
+dataset:
+    name: Advection
+    file_names: ["1D_Advection_Sols_beta0.7.hdf5"]
+    t_train: 41
+    x_range: 256
+    initial_step: 10
+    reduced_resolution: 4
+    reduced_resolution_t: 5
+    reduced_batch: 1
+    num_channels: 1
+```
+  
+If you select `lod-small-learnable`, the LOD-small predicts PDE using learnable bases.
+```python
+class LOD_small_learnable(nn.Module):
+    def __init__(self, init_t, N_eigen, N_time, N_x, bases):
+        super(LOD_small_learnable, self).__init__()
+
+        self.N_eig = N_eigen
+        self.hidden = N_x
+
+        self.time_projection = nn.Sequential(
+                                            nn.Linear(init_t, N_time), # no //2
+                                            nn.GELU(),
+                                            nn.Linear(N_time, N_time)
+                                        )   
+
+        self.latent_out = nn.Sequential(
+                                    nn.Linear(self.hidden, self.hidden//2),
+                                    nn.GELU(),
+                                    nn.Linear(self.hidden//2, N_eigen),
+                                )
+        
+        self.latent_bases = nn.Parameter(bases) # Add this,
+```
+
+
+
