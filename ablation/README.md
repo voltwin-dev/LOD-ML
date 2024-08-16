@@ -67,3 +67,5 @@ Then, 3 files will be generated.
 Finally, you can use `LOD_datasize.py` for ablation study.
 
 ## Scalability to Parameter-Integrated Scenarios🐉
+
+## Effect of Learnable Bases🦕
