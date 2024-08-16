@@ -36,7 +36,8 @@ data2
 │   ├── 2D           
 │       ├── shallow-water
 ```
-  
+
+----
 # POD preprocess🌊
 ```python
 def POD(T, N_eigen):
@@ -126,7 +127,8 @@ python LOD_CFD.py
 ```python
 python LOD_2D.py
 ```
-  
+
+----
 # Evaluation🌟
 ## Efficiency
 <img src="./images/vram.png" width="700" height="500" />
@@ -230,6 +232,7 @@ checkpoint
 
 </table>
 
+----
 # Ablation Studies🥛
 For ablation studies, we have summarized the results in the [ablation folder](https://github.com/voltwin-dev/LOD-ML/tree/main/ablation).
   
