@@ -195,6 +195,13 @@ def run_training(config):
         
                     xx = torch.cat((xx[..., 1:, :], im), dim=-2)
 
+                # VRAM
+                if i == 0:
+                    def to_MB(a):
+                        return a/1024.0/1024.0
+                        
+                    print(f"After model to device: {to_MB(torch.cuda.memory_allocated()):.2f}MB")
+
                 _pred = pred[..., initial_step:t_train, :]
                 _yy = yy[..., initial_step:t_train, :]
                 loss = loss_fn(_pred, _yy)
@@ -210,6 +217,13 @@ def run_training(config):
                 pred_coeff = model(inp) # (N, T, Eigen)
                 im = torch.einsum('btn, tns -> bts', pred_coeff, bases).permute(0, 2, 1) # (N, S, T)
 
+                # VRAM
+                if i == 0:
+                    def to_MB(a):
+                        return a/1024.0/1024.0
+                        
+                    print(f"After model to device: {to_MB(torch.cuda.memory_allocated()):.2f}MB")
+
                 _pred = im[:, :, initial_step:]
                 _batch = im.size(0)
                 loss = loss_fn(_pred.reshape(_batch, -1), y.reshape(_batch, -1))
@@ -224,6 +238,13 @@ def run_training(config):
                 y = yy[..., initial_step:t_train, :] # (N, S, T, 1)
 
                 prediction_pde, _, _, _ = model(inp) # (N, T, seq)
+
+                # VRAM
+                if i == 0:
+                    def to_MB(a):
+                        return a/1024.0/1024.0
+                        
+                    print(f"After model to device: {to_MB(torch.cuda.memory_allocated()):.2f}MB")
 
                 prediction_pde = prediction_pde.permute(0,2,1)
                 im = prediction_pde[:, :, initial_step:]
