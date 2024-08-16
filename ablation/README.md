@@ -27,7 +27,23 @@ This study suggests that **non-regressive methods like LOD may be more suitable*
 You can make this plot through [visualization code](https://github.com/voltwin-dev/LOD-ML/blob/main/1D_visualization.py#L292).
 
 ## Effect of Eigenvalue Number on Performance🐍
+You need to implement the POD processing [code]().  
+In preprocess, you can modify yaml config.  
+```yaml
+dataset:
+    root_path: '/data2/PDEBench/1D'
+    save_path: '/data2/PDEBench/POD/'
+    data_path: ['1D_Advection_Sols_beta4.0.hdf5']
+    N_eigen: 128
+    data_num: 10000 # fixed
+```
 
+Then, 3 files will be generated.  
+- 1D_Advection_Sols_beta4.0_10000_pde.npy
+- 1D_Advection_Sols_beta4.0_10000_coeff128.npy
+- 1D_Advection_Sols_beta4.0_10000_bases128.npy
+Finally, you can use `LOD_eigenvalues.py` for ablation study.
+  
 ## The Effect of Training Data Size on Test Accuracy🐲
 
 ## Scalability to Parameter-Integrated Scenarios🐉
