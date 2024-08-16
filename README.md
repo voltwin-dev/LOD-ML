@@ -258,9 +258,9 @@ You can make this plot through [visualization code](https://github.com/voltwin-d
 
 ## Effect of Eigenvalue Number on Performance🐍
 
-## Scalability to Parameter-Integrated Scenarios🐲
+## The Effect of Training Data Size on Test Accuracy🐲
 
-## The Effect of Training Data Size on Test Accuracy🐉
+## Scalability to Parameter-Integrated Scenarios🐉
 
 # References
 - [PDEBench](https://github.com/pdebench/PDEBench)
