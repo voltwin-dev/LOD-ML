@@ -9,7 +9,8 @@
 4. [LOD Training🤗](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#lod-training)
 5. [Evaluation🌟](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#evaluation)
 6. [LOD Inference🌊](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#lod-inference)
-7. [References](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#references)
+7. [Ablation Study]()
+8. [References](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#references)
 
 # Introduction📖
 | ![](./images/fno_vs_lod.png) | 
@@ -218,6 +219,13 @@ checkpoint
 </tr>
 
 </table>
+
+# Ablation Study
+## Effect of Eigenvalue Number on Performance
+
+## Scalability to Parameter-Integrated Scenarios
+
+## The Effect of Training Data Size on Test Accuracy
   
 # References
 - [PDEBench](https://github.com/pdebench/PDEBench)
