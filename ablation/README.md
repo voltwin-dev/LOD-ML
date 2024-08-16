@@ -34,7 +34,7 @@ dataset:
     root_path: '/data2/PDEBench/1D'
     save_path: '/data2/PDEBench/POD/'
     data_path: ['1D_Advection_Sols_beta4.0.hdf5']
-    N_eigen: 128
+    N_eigen: 128 # change
     data_num: 10000 # fixed
 ```
 
@@ -46,5 +46,21 @@ Then, 3 files will be generated.
 Finally, you can use `LOD_eigenvalues.py` for ablation study.
   
 ## The Effect of Training Data Size on Test Accuracy🐲
+Similar to above study, you can modify `yaml` config.  
+```yaml
+dataset:
+    root_path: '/data2/PDEBench/1D'
+    save_path: '/data2/PDEBench/POD/'
+    data_path: ['1D_Burgers_Sols_Nu0.1.hdf5']
+    N_eigen: 64 # fixed
+    data_num: 5500 # train(N) + test(1000)
+```
+
+Then, 3 files will be generated.  
+- 1D_Burgers_Sols_Nu0.1_5500_pde.npy
+- 1D_Burgers_Sols_Nu0.1_5500_coeff64.npy
+- 1D_Burgers_Sols_Nu0.1_5500_bases64.npy
+  
+Finally, you can use `LOD_datasize.py` for ablation study.
 
 ## Scalability to Parameter-Integrated Scenarios🐉
