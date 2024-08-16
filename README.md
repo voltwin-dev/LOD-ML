@@ -159,7 +159,7 @@ python 2D_visualization.py
 ```
   
 We provided some [checkpoints](https://drive.google.com/drive/folders/1yDLMFUdq16HwNyIJfMvCFoxqdmnKfyQ1?usp=sharing).  
-You will easily implement our code..!  
+You can easily implement our code..!  
 ```
 checkpoint
 ├── lod_Advection_beta0.1.pt
