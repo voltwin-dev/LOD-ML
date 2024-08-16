@@ -245,15 +245,6 @@ This study suggests that **non-regressive methods like LOD may be more suitable*
 </tr>
 
 <tr>
-  <td><img src="./images/bur_time_0.4_FNO.png"></td>
-  <td><img src="./images/bur_time_0.4_LOD.png"></td>           
-</tr>
-<tr>
-  <td width=25% style="text-align:center;">"Burgers nu 0.4 - FNO”</td>
-  <td width=25% style="text-align:center;">"Burgers nu 0.4 - LOD"</td>
-</tr>
-
-<tr>
   <td><img src="./images/bur_time_1.0_FNO.png"></td>
   <td><img src="./images/bur_time_1.0_LOD.png"></td>           
 </tr>
