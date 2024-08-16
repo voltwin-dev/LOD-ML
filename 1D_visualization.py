@@ -287,6 +287,28 @@ def run_training(config):
     writer = animation.PillowWriter(fps=15, bitrate=1800)
     ani.save('./visualization/'+str(k)+'.gif', writer=writer)
     print("### Animation saved ###")
+
+
+    '''
+    # Comparison of RMSE at each time step
+    time_mse = []
+    loss_fn = nn.MSELoss()
+    
+    for i in range(41):
+        loss = np.mean((pred_pde[..., i, :] - gt_pde[..., i, :])**2)
+        time_mse.append(loss.item())
+
+    # Calculate RMSE
+    time_mse = np.array(time_mse)**(1/2)
+
+    # Visualization
+    plt.plot(time_mse, label="FNO", color='green') # plt.plot(time_mse, label="LOD", color='blue')
+    plt.legend()
+    plt.xticks(np.arange(0,41,5))
+    plt.xlim(10)
+    plt.legend(loc="upper left")
+    plt.show()
+    '''
             
 
 # Run script
