@@ -28,7 +28,7 @@ You can make this plot through [visualization code](https://github.com/voltwin-d
 
 ## Effect of Eigenvalue Number on Performance🐍
 You need to implement the POD processing [code]().  
-In preprocess, you can modify yaml config.  
+In preprocess, you can modify `yaml` config.  
 ```yaml
 dataset:
     root_path: '/data2/PDEBench/1D'
