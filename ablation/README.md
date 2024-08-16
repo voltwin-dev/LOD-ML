@@ -27,6 +27,9 @@ This study suggests that **non-regressive methods like LOD may be more suitable*
 You can make this plot through [visualization code](https://github.com/voltwin-dev/LOD-ML/blob/main/1D_visualization.py#L292).
 
 ## Effect of Eigenvalue Number on Performance🐍
+![](./images/ablation2.png)
+> It indicates that LOD methods can potentially achieve competitive results with a well-chosen,moderate number of eigenvalues, offering a good trade-off between accuracy and computational efficiency.
+  
 You need to implement the [POD processing code]().  
 In preprocess, you can modify `yaml` config.  
 ```yaml
@@ -43,12 +46,12 @@ Then, 3 files will be generated.
 - 1D_Advection_Sols_beta4.0_10000_coeff128.npy
 - 1D_Advection_Sols_beta4.0_10000_bases128.npy
   
-Finally, you can use `LOD_eigenvalues.py` for ablation study.
-
-----
-
+Finally, you can use `LOD_eigenvalues.py` for ablation study.  
   
 ## The Effect of Training Data Size on Test Accuracy🐲
+![](./images/ablation3.png)
+> LOD model is relatively robust to variations in the number of training samples. Additionally, although there is a slight performance decrease without positional encoding, the LOD becomes more robust.
+  
 Similar to above study, you can modify `yaml` config.  
 ```yaml
 dataset:
