@@ -9,7 +9,7 @@
 4. [LOD Training🤗](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#lod-training)
 5. [Evaluation🌟](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#evaluation)
 6. [LOD Inference🌊](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#lod-inference)
-7. [Ablation Study]()
+7. [Ablation Study🥛]()
 8. [References](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#references)
 
 # Introduction📖
