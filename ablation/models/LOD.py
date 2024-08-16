@@ -167,15 +167,11 @@ class LOD_wo_PE(nn.Module):
         
         self.latent_bases = nn.Parameter(bases)
 
-        ## Positional (sincos)
-        self.pos_encoding = PositionalEncoding(seq_len=init_t, d_model=N_x, n=10000, N_time=N_time)
-
     # forward
     def forward(self, seq):
 
         # Temporal projection + PE
         seq_time_projection = self.time_projection(seq).transpose(1, 2) # (N, 41, 256)
-        seq_time_projection = self.pos_encoding(seq_time_projection)
 
         # Latent coeff output
         latent_coeff = self.latent_out(seq_time_projection)
