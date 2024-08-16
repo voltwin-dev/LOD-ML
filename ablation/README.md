@@ -6,8 +6,8 @@ This study suggests that **non-regressive methods like LOD may be more suitable*
   <td style="text-align:center;" colspan="2"><b>Comparison of RMSE at each time step [10, 40]</b></td>
 </tr>
 <tr>
-  <td><img src="./images/adv_time_0.1_FNO.png"></td>
-  <td><img src="./images/adv_time_0.1_LOD.png"></td>           
+  <td><img src="../images/adv_time_0.1_FNO.png"></td>
+  <td><img src="../images/adv_time_0.1_LOD.png"></td>           
 </tr>
 <tr>
   <td width=25% style="text-align:center;">"Advection beta 0.1 - FNO”</td>
@@ -15,8 +15,8 @@ This study suggests that **non-regressive methods like LOD may be more suitable*
 </tr>
 
 <tr>
-  <td><img src="./images/bur_time_1.0_FNO.png"></td>
-  <td><img src="./images/bur_time_1.0_LOD.png"></td>           
+  <td><img src="../images/bur_time_1.0_FNO.png"></td>
+  <td><img src="../images/bur_time_1.0_LOD.png"></td>           
 </tr>
 <tr>
   <td width=25% style="text-align:center;">"Burgers nu 1.0 - FNO”</td>
