@@ -115,5 +115,4 @@ class LOD_small_learnable(nn.Module):
         self.latent_bases = nn.Parameter(bases) # Add this,
 ```
 
-
-
+Finally, you can use `LOD_bases.py` for ablation study.
