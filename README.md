@@ -245,12 +245,12 @@ This study suggests that **non-regressive methods like LOD may be more suitable*
 </tr>
 
 <tr>
-  <td><img src="./images/adv_time_2.0_FNO.png"></td>
-  <td><img src="./images/adv_time_2.0_LOD.png"></td>           
+  <td><img src="./images/bur_time_0.4_FNO.png"></td>
+  <td><img src="./images/bur_time_0.4_LOD.png"></td>           
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"Advection beta 2.0 - FNO”</td>
-  <td width=25% style="text-align:center;">"Advection beta 2.0 - LOD"</td>
+  <td width=25% style="text-align:center;">"Burgers nu 0.4 - FNO”</td>
+  <td width=25% style="text-align:center;">"Burgers nu 0.4 - LOD"</td>
 </tr>
 
 <tr>
