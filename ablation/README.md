@@ -70,8 +70,8 @@ Finally, you can use `LOD_datasize.py` for ablation study.
 
 ## Effect of Learnable Bases🦕
 <p align="center"><img src="./images/ablation5.png"></p>
+> This improvement was consistent across Advection, Burgers, and Diffusion-Reaction equations, with some cases showing error reductions of over 70%.
   
-
 Similar to LOD training, you can modify `yaml` [config]().  
 ```yaml
 # learnable bases
