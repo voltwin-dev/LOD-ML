@@ -69,7 +69,8 @@ Finally, you can use `LOD_datasize.py` for ablation study.
 ## Scalability to Parameter-Integrated Scenarios🐉
 
 ## Effect of Learnable Bases🦕
-![](./images/ablation5.png)
+<p align="center"><img src="./images/ablation5.png"></p>
+  
 
 Similar to LOD training, you can modify `yaml` [config]().  
 ```yaml
