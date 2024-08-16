@@ -138,8 +138,16 @@ python LOD_2D.py
 In 1D-PDE dataset, LOD-small is about **14.3x** faster than FNO.  
 LOD have a higher VRAM usage than FNO, but about **6.1x** faster inference speed.
   
-## Performance
-(TODO)
+## Performance (Advection)
+| Model | `Advection beta 0.1` | `Advection beta 0.4` | `Advection beta 1.0` | `Advection beta 4.0` |
+| --- | --- | --- | --- | --- | 
+| **POD(Train)** | `0.001737` | `0.001668` | `0.001874` | `0.002480` |
+| **FNO** | 0.009380 | 0.01261 | 0.009883 | 0.005690 |
+| **PINN** | 0.7800 | 0.9200 | 0.4000 | 0.6600 |
+| **TranSolver** | 0.003981 | 0.09200 | 0.2333 | 0.01509 | 
+| **OFormer** | 0.004631 | 0.005718 | 0.007607 | 0.01281 | 
+| **LOD-small** | 0.004515 | 0.01425 | 0.01027 | 0.07331 |
+| **LOD** | **0.003422** | **0.004887** | **0.003890** | **0.005382** |
   
 # LOD Inference🌊
 ## Code
