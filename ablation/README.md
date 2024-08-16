@@ -28,6 +28,7 @@ You can make this plot through [visualization code](https://github.com/voltwin-d
 
 ## Effect of Eigenvalue Number on Performance🐍
 <img src="./images/ablation2.png" width="700" />  
+  
 > It indicates that LOD methods can potentially achieve competitive results with a well-chosen,moderate number of eigenvalues, offering a good trade-off between accuracy and computational efficiency.
   
 You need to implement the [POD processing code]().  
