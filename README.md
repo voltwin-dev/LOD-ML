@@ -20,7 +20,7 @@ Understanding spatio-temporal data is a central challenge in the field of deep l
   
 # Datasets📚
 Before training, you must download the [PDEBench dataset](https://github.com/pdebench/PDEBench/tree/main/pdebench/data_download).  
-You can download data through above link, also can utilize [our code](https://github.com/voltwin-dev/LOD-ML/blob/main/dataset/download_pdebench.ipynb).
+You can download data through above link, also can utilize [this code](https://github.com/voltwin-dev/LOD-ML/blob/main/dataset/download_pdebench.ipynb).
 
 Here, below is folder structure we recommend.
 ```
