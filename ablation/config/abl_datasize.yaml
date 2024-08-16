@@ -1,0 +1,29 @@
+# datasize
+
+model: fno # fno // lod // lod_wo_PE
+
+dataset:
+    name: Burgers
+    file_names: ["1D_Burgers_Sols_Nu0.1.hdf5"]
+    t_train: 41
+    x_range: 256
+    initial_step: 10
+    reduced_resolution: 4
+    reduced_resolution_t: 5
+    reduced_batch: 1
+    num_channels: 1
+
+pod_parameter:
+    N_eigen: 64 # maybe, fixed
+    data_num: 5500 # train + test(1000)
+
+training:
+    random_seed: 3407
+    num_workers: 8
+    batch_size: 64
+    epochs: 500
+    learning_rate: 1.e-3
+
+fno:
+    modes: 12
+    width: 20
