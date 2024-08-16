@@ -148,7 +148,7 @@ def run_training(config):
 
     model.to(device)
     total_params = count_model_params(model)
-    print(f"Total Trainable Parameters = {total_params}")
+    print(f"Total Trainable Parameters = {total_params}") # of parameters
 
     model.load_state_dict(torch.load(model_path)["model_state_dict"])
     model.eval()
