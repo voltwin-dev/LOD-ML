@@ -67,7 +67,7 @@ Then, 3 files will be generated.
 Finally, you can use `LOD_datasize.py` for ablation study.
   
 ## Scalability to Parameter-Integrated Scenarios🐉
-Before training, you need to POD preprocess about `all Advection parameters`.
+Before training, you need to POD preprocess about `all Advection parameters`.  
 But, you can control the number of Advection dataset through `yaml` [config]().
 ```yaml
 # advection_multi
