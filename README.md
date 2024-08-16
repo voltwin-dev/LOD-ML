@@ -90,7 +90,7 @@ dataset:
     N_eigen: 64 # change hyperparameter
 ```
   
-Then, implement below clode.
+Then, implement below code.
 ```python
 python POD_1D_process.py
 ```
