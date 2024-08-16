@@ -1,6 +1,6 @@
 # LOD: Learnable Orthogonal Decomposition🔥
 ![](https://i.imgur.com/waxVImv.png)
-![KO-platypus](./images/LOD.png)
+![](./images/LOD.png)
 
 # Table of Contents📖
 1. [Introduction📖](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#introduction)
