@@ -27,7 +27,7 @@ This study suggests that **non-regressive methods like LOD may be more suitable*
 You can make this plot through [visualization code](https://github.com/voltwin-dev/LOD-ML/blob/main/1D_visualization.py#L292).
 
 ## Effect of Eigenvalue Number on Performance🐍
-You need to implement the POD processing [code]().  
+You need to implement the [POD processing code]().  
 In preprocess, you can modify `yaml` config.  
 ```yaml
 dataset:
