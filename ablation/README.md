@@ -27,8 +27,8 @@ This study suggests that **non-regressive methods like LOD may be more suitable*
 You can make this plot through [visualization code](https://github.com/voltwin-dev/LOD-ML/blob/main/1D_visualization.py#L292).
   
 ## Effect of Eigenvalue Number on Performance🐍
-You need to implement the [POD processing code]().  
-In preprocess, you can modify `yaml` [config]().  
+You need to implement the [POD processing code](https://github.com/voltwin-dev/LOD-ML/blob/main/ablation/POD_ablation.py).  
+In preprocess, you can modify `yaml` [config](https://github.com/voltwin-dev/LOD-ML/blob/main/ablation/config/ablation_POD.yaml).  
 ```yaml
 dataset:
     root_path: '/data2/PDEBench/1D'
@@ -43,13 +43,14 @@ Then, 3 files will be generated.
 - 1D_Advection_Sols_beta4.0_10000_coeff128.npy
 - 1D_Advection_Sols_beta4.0_10000_bases128.npy
   
-Finally, you can use `LOD_eigenvalues.py` for ablation study.  
+Finally, you can use `LOD_eigenvalues.py` for ablation study using [training config](https://github.com/voltwin-dev/LOD-ML/blob/main/ablation/config/abl_eigenvalue.yaml).  
   
 ## The Effect of Training Data Size on Test Accuracy🐲
 ![](./images/ablation3.png)
 > LOD model is relatively robust to variations in the number of training samples. Additionally, although there is a slight performance decrease without positional encoding, the LOD becomes more robust.
   
-Similar to above study, you can modify `yaml` [config]().  
+Similar to above study, you need to implement the [POD processing code](https://github.com/voltwin-dev/LOD-ML/blob/main/ablation/POD_ablation.py).  
+Also, you can modify `yaml` [config](https://github.com/voltwin-dev/LOD-ML/blob/main/ablation/config/ablation_POD.yaml).  
 ```yaml
 dataset:
     root_path: '/data2/PDEBench/1D'
@@ -64,11 +65,11 @@ Then, 3 files will be generated.
 - 1D_Burgers_Sols_Nu0.1_5500_coeff64.npy
 - 1D_Burgers_Sols_Nu0.1_5500_bases64.npy
   
-Finally, you can use `LOD_datasize.py` for ablation study.
+Finally, you can use `LOD_datasize.py` for ablation study using [training config](https://github.com/voltwin-dev/LOD-ML/blob/main/ablation/config/abl_datasize.yaml).
   
 ## Scalability to Parameter-Integrated Scenarios🐉
 Before training, you need to POD preprocess about `all Advection parameters`.  
-But, you can control the number of Advection dataset through `yaml` [config]().
+But, you can control the number of Advection dataset through `yaml` [config](https://github.com/voltwin-dev/LOD-ML/blob/main/ablation/config/advection_multi.yaml).
 ```yaml
 # advection_multi
 model: lod # fno // lod
@@ -87,14 +88,14 @@ dataset:
     num_channels: 1
 ```
   
-Finally, you can use `LOD_multi.py` for ablation study.
+Finally, you can use `LOD_multi.py` for ablation study using above config.
   
 ## Effect of Learnable Bases🦕
 <p align="center"><img src="./images/ablation5.png"></p>
 
 > This improvement was consistent across Advection, Burgers, and Diffusion-Reaction equations, with some cases showing error reductions of over 70%.
   
-Similar to LOD training, you can modify `yaml` [config]().  
+Similar to LOD training, you can modify `yaml` [config](https://github.com/voltwin-dev/LOD-ML/blob/main/ablation/config/abl_bases.yaml).  
 ```yaml
 # learnable bases
 model: lod-small # lod-small // lod-small-learnable
@@ -136,4 +137,4 @@ class LOD_small_learnable(nn.Module):
         self.latent_bases = nn.Parameter(bases) # Add this,
 ```
 
-Finally, you can use `LOD_bases.py` for ablation study.
+Finally, you can use `LOD_bases.py` for ablation study using above config.
