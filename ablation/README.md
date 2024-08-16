@@ -25,7 +25,7 @@ This study suggests that **non-regressive methods like LOD may be more suitable*
 </table>
 
 You can make this plot through [visualization code](https://github.com/voltwin-dev/LOD-ML/blob/main/1D_visualization.py#L292).
-
+  
 ## Effect of Eigenvalue Number on Performance🐍
 You need to implement the [POD processing code]().  
 In preprocess, you can modify `yaml` [config]().  
@@ -65,9 +65,30 @@ Then, 3 files will be generated.
 - 1D_Burgers_Sols_Nu0.1_5500_bases64.npy
   
 Finally, you can use `LOD_datasize.py` for ablation study.
-
+  
 ## Scalability to Parameter-Integrated Scenarios🐉
-
+Before training, you need to POD preprocess about `all Advection parameters`.
+But, you can control the number of Advection dataset through `yaml` [config]().
+```yaml
+# advection_multi
+model: lod # fno // lod
+dataset:
+    name: Advection
+    file_names: ["1D_Advection_Sols_beta0.1.hdf5", "1D_Advection_Sols_beta0.2.hdf5", 
+                  "1D_Advection_Sols_beta0.4.hdf5", "1D_Advection_Sols_beta0.7.hdf5", 
+                  "1D_Advection_Sols_beta1.0.hdf5", "1D_Advection_Sols_beta2.0.hdf5",
+                  "1D_Advection_Sols_beta4.0.hdf5", "1D_Advection_Sols_beta7.0.hdf5"]
+    t_train: 41
+    x_range: 256
+    initial_step: 10
+    reduced_resolution: 4
+    reduced_resolution_t: 5
+    reduced_batch: 1
+    num_channels: 1
+```
+  
+Finally, you can use `LOD_multi.py` for ablation study.
+  
 ## Effect of Learnable Bases🦕
 <p align="center"><img src="./images/ablation5.png"></p>
 
