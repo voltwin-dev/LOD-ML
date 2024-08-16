@@ -42,6 +42,7 @@ Then, 3 files will be generated.
 - 1D_Advection_Sols_beta4.0_10000_pde.npy
 - 1D_Advection_Sols_beta4.0_10000_coeff128.npy
 - 1D_Advection_Sols_beta4.0_10000_bases128.npy
+  
 Finally, you can use `LOD_eigenvalues.py` for ablation study.
   
 ## The Effect of Training Data Size on Test Accuracy🐲
