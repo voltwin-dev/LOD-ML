@@ -1,7 +1,7 @@
 # LOD: Learnable Orthogonal Decomposition🔥
 ![](https://i.imgur.com/waxVImv.png)
 ![](./images/LOD.png)  
-The code repository for the paper [Learnable Orthogonal Decomposition for Non-Regressive Prediction for PDE](https://openreview.net/forum?id=seC4M69det).
+The code repository for the paper [Learnable Orthogonal Decomposition for Non-Regressive Prediction for PDE]().
   
 # Table of Contents📖
 1. [Introduction📖](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#introduction)
