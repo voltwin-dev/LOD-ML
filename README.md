@@ -6,12 +6,11 @@ The code repository for the paper [Learnable Orthogonal Decomposition for Non-Re
 # Table of Contents📖
 1. [Introduction📖](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#introduction)
 2. [Datasets📚](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#datasets)
-3. [POD preprocess🌊](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#pod-preprocess)
-4. [LOD Training🤗](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#lod-training)
-5. [Evaluation🌟](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#evaluation)
-6. [LOD Inference🌊](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#lod-inference)
-7. [Ablation Study🥛](https://github.com/voltwin-dev/LOD-ML/tree/main?tab=readme-ov-file#ablation-studies)
-8. [References](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#references)
+3. [LOD Training🤗](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#lod-training)
+4. [Evaluation🌟](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#evaluation)
+5. [LOD Inference🌊](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#lod-inference)
+6. [Ablation Study🥛](https://github.com/voltwin-dev/LOD-ML/tree/main?tab=readme-ov-file#ablation-studies)
+7. [References](https://github.com/voltwin-dev/LOD-ML?tab=readme-ov-file#references)
 
 # Introduction📖
 | ![](./images/fno_vs_lod.png) | 
@@ -39,6 +38,8 @@ data2
 ```
 
 ----
+# LOD Training
+  
 ## 1D-PDE
 Use the [make_1D_POD](https://github.com/voltwin-dev/LOD-ML/blob/main/config/make_1D_POD.yaml) yaml files.
 ```yaml
