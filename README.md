@@ -194,4 +194,3 @@ For ablation studies, we have summarized the results in the [ablation folder](ht
   
 # References
 - [PDEBench](https://github.com/pdebench/PDEBench)
-- [VCNeF](https://github.com/jhagnberger/vcnef)
