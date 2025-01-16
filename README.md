@@ -36,9 +36,6 @@ data2
 │   ├── 2D           
 │       ├── shallow-water
 ```
-
-----
-# LOD Training
   
 ## 1D-PDE
 Use the [make_1D_POD](https://github.com/voltwin-dev/LOD-ML/blob/main/config/make_1D_POD.yaml) yaml files.
