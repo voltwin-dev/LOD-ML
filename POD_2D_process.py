@@ -167,11 +167,11 @@ def POD(T, N_eigen):
     EV = V[:, :n] / np.sqrt(D[:n])
     #print("Reshaped EV:", EV.shape)
     
-    # Calculating the projection matrix
+    # Calculating bases
     phi = EV.T @ T
     #print("Reshaped phi:", phi.shape)
     
-    # Reconstructing T
+    # Coeff
     Tr = T @ phi.T
     #print("Reshaped Tr:", Tr.shape)
 
