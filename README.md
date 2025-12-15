@@ -3,8 +3,8 @@
 ![](./images/LOD.png)  
 The code repository for the paper [Learnable Orthogonal Decomposition for Non-Regressive Prediction for PDE](https://dl.acm.org/doi/10.1145/3746252.3761364).  
 <p align="center">
-    <a href="https://dl.acm.org/doi/10.1145/3746252.3761364"><img alt="Static Badge" src="https://img.shields.io/badge/paper-gray?style=flat&logo=paper&label=ACM&labelColor=red"></a>
-    <a href="https://img.shields.io/badge/kudos-blue?style=plastic&logo=paper&label=ACM&labelColor=red"><img alt="Static Badge" src="https://www.growkudos.com/publications/10.1145%252F3746252.3761364/reader"></a>
+    <a href="https://dl.acm.org/doi/10.1145/3746252.3761364"><img alt="badge1" src="https://img.shields.io/badge/paper-gray?style=flat&logo=paper&label=ACM&labelColor=red"></a>
+    <a href="https://img.shields.io/badge/kudos-blue?style=plastic&logo=paper&label=ACM&labelColor=red"><img alt="badge2" src="https://www.growkudos.com/publications/10.1145%252F3746252.3761364/reader"></a>
 </p>
   
 # Table of Contents📖
